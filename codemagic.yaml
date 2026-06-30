@@ -33,9 +33,6 @@ workflows:
       ios_signing:
         distribution_type: ad_hoc
         bundle_identifier: com.forma.app
-    triggering:
-      events:
-        - manual
     scripts:
       - name: Set up code signing
         script: |

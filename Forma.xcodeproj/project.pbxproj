@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		910856748ECA40F1B3307B07 = {isa = PBXBuildFile; fileRef = C1E5D383A17044CA994506BE; };
+		742ECDF14BFF48B0ADA3C409 = {isa = PBXBuildFile; fileRef = 2AA66D0BB27B4697890E30DA; };
+		F222BF025E8248278530D515 = {isa = PBXBuildFile; fileRef = 09A941C79EED4CBCA4AC5C73; };
+		DD1206435AD3445D89B6A70D = {isa = PBXBuildFile; fileRef = 1023B474FD684A569D3E3095; };
+		1ADDEA62D62241C598EDE2B6 = {isa = PBXBuildFile; fileRef = 06844A55A7034900982975B6; };
+		BA174B6E29C44267A5447965 = {isa = PBXBuildFile; fileRef = 7AC56C06795942C7BB5DB153; };
+		EF9FF8FB321C4372B8F515F7 = {isa = PBXBuildFile; fileRef = 3A78B959E3994048B27FEC46; };
+		330C2956E0A24E61BD8765DA = {isa = PBXBuildFile; fileRef = B0CFDF827FBC437E84077BC7; };
+		6F55AEF146A243B883D38CD8 = {isa = PBXBuildFile; fileRef = AD18E6A4CA754508911BFE74; };
+		B01C448FA78D439A953030BF = {isa = PBXBuildFile; fileRef = 25252E201F254E00A30CD062; };
+		B8C83965A76A4CB0841D43E7 = {isa = PBXBuildFile; fileRef = 17284B01FAD647CFBD07F542; };
+		DF57F024CECC4E2A9BD86692 = {isa = PBXBuildFile; fileRef = FAD6347CBA1245DB8A8E248F; };
+		64EE4295BD55430C966EDC68 = {isa = PBXBuildFile; fileRef = F99DE6CA24BA4E9FA44DB9D9; };
+		3AEE93F8B5AF472DA410127B = {isa = PBXBuildFile; fileRef = BC535FF4A0624C628877447B; };
+		72FBB4B5FF504B569D5C87E6 = {isa = PBXBuildFile; fileRef = F30F769521C94F27BA643865; };
+		937C34677D5A40DF81405CD3 = {isa = PBXBuildFile; fileRef = C2EFC095C80746F3980940B9; };
+		35A4D619F6334EF58F86098E = {isa = PBXBuildFile; fileRef = 4A17141C13DF48BE8384CBEF; };
+		16A1114CEE6B40829237B88E = {isa = PBXBuildFile; fileRef = E30DC05E3B224C6AA3BC920D; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C1E5D383A17044CA994506BE = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FormaApp.swift; path = FormaApp.swift; sourceTree = "<group>"; };
+		2AA66D0BB27B4697890E30DA = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppState.swift; path = AppState.swift; sourceTree = "<group>"; };
+		09A941C79EED4CBCA4AC5C73 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Models.swift; path = Models.swift; sourceTree = "<group>"; };
+		1023B474FD684A569D3E3095 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Theme.swift; path = Theme.swift; sourceTree = "<group>"; };
+		06844A55A7034900982975B6 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SplashView.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		7AC56C06795942C7BB5DB153 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginView.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		3A78B959E3994048B27FEC46 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeView.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B0CFDF827FBC437E84077BC7 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EditorView.swift; path = EditorView.swift; sourceTree = "<group>"; };
+		AD18E6A4CA754508911BFE74 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = QuestionsTab.swift; path = QuestionsTab.swift; sourceTree = "<group>"; };
+		25252E201F254E00A30CD062 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PreviewTab.swift; path = PreviewTab.swift; sourceTree = "<group>"; };
+		17284B01FAD647CFBD07F542 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ResponsesTab.swift; path = ResponsesTab.swift; sourceTree = "<group>"; };
+		FAD6347CBA1245DB8A8E248F = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingsTab.swift; path = SettingsTab.swift; sourceTree = "<group>"; };
+		F99DE6CA24BA4E9FA44DB9D9 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Components.swift; path = Components.swift; sourceTree = "<group>"; };
+		BC535FF4A0624C628877447B = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Sheets.swift; path = Sheets.swift; sourceTree = "<group>"; };
+		F30F769521C94F27BA643865 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ShareSheet.swift; path = ShareSheet.swift; sourceTree = "<group>"; };
+		C2EFC095C80746F3980940B9 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AuthManager.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		4A17141C13DF48BE8384CBEF = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FirestoreService.swift; path = FirestoreService.swift; sourceTree = "<group>"; };
+		E30DC05E3B224C6AA3BC920D = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4FDA816C9D648FFB30F57D7 = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Forma.app; path = Forma.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0152D72FA25E4082ACF97FD8 = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17202F07280E480B9F5BC35C = {
+			isa = PBXGroup;
+			children = (
+				51A8F175BF394BD7A74FAEE7 /* Forma */,
+				B751794523734697B02CEFFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B751794523734697B02CEFFF = {
+			isa = PBXGroup;
+			children = (
+				D4FDA816C9D648FFB30F57D7 /* Forma.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		51A8F175BF394BD7A74FAEE7 = {
+			isa = PBXGroup;
+			children = (
+				C1E5D383A17044CA994506BE /* FormaApp.swift */,
+				2AA66D0BB27B4697890E30DA /* AppState.swift */,
+				09A941C79EED4CBCA4AC5C73 /* Models.swift */,
+				1023B474FD684A569D3E3095 /* Theme.swift */,
+				06844A55A7034900982975B6 /* SplashView.swift */,
+				7AC56C06795942C7BB5DB153 /* LoginView.swift */,
+				3A78B959E3994048B27FEC46 /* HomeView.swift */,
+				B0CFDF827FBC437E84077BC7 /* EditorView.swift */,
+				AD18E6A4CA754508911BFE74 /* QuestionsTab.swift */,
+				25252E201F254E00A30CD062 /* PreviewTab.swift */,
+				17284B01FAD647CFBD07F542 /* ResponsesTab.swift */,
+				FAD6347CBA1245DB8A8E248F /* SettingsTab.swift */,
+				F99DE6CA24BA4E9FA44DB9D9 /* Components.swift */,
+				BC535FF4A0624C628877447B /* Sheets.swift */,
+				F30F769521C94F27BA643865 /* ShareSheet.swift */,
+				C2EFC095C80746F3980940B9 /* AuthManager.swift */,
+				4A17141C13DF48BE8384CBEF /* FirestoreService.swift */,
+				E30DC05E3B224C6AA3BC920D /* Assets.xcassets */,
+			);
+			path = Forma;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D40E546B3C5C40E5897B7DFC = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D4EB2CFC59240E797278DE5;
+			buildPhases = (
+				91B9EC30FD6F4ACE95A5321B /* Sources */,
+				0152D72FA25E4082ACF97FD8 /* Frameworks */,
+				DFC3FA23D76D49F181A7FDDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Forma;
+			productName = Forma;
+			productReference = D4FDA816C9D648FFB30F57D7;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDBCA549E5314D41BE8B61E3 = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					D40E546B3C5C40E5897B7DFC = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 25E672C0B4DE4DBBA836B0F8;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17202F07280E480B9F5BC35C;
+			productsGroup = B751794523734697B02CEFFF;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D40E546B3C5C40E5897B7DFC /* Forma */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFC3FA23D76D49F181A7FDDB = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16A1114CEE6B40829237B88E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91B9EC30FD6F4ACE95A5321B = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				910856748ECA40F1B3307B07 /* FormaApp.swift in Sources */,
+				742ECDF14BFF48B0ADA3C409 /* AppState.swift in Sources */,
+				F222BF025E8248278530D515 /* Models.swift in Sources */,
+				DD1206435AD3445D89B6A70D /* Theme.swift in Sources */,
+				1ADDEA62D62241C598EDE2B6 /* SplashView.swift in Sources */,
+				BA174B6E29C44267A5447965 /* LoginView.swift in Sources */,
+				EF9FF8FB321C4372B8F515F7 /* HomeView.swift in Sources */,
+				330C2956E0A24E61BD8765DA /* EditorView.swift in Sources */,
+				6F55AEF146A243B883D38CD8 /* QuestionsTab.swift in Sources */,
+				B01C448FA78D439A953030BF /* PreviewTab.swift in Sources */,
+				B8C83965A76A4CB0841D43E7 /* ResponsesTab.swift in Sources */,
+				DF57F024CECC4E2A9BD86692 /* SettingsTab.swift in Sources */,
+				64EE4295BD55430C966EDC68 /* Components.swift in Sources */,
+				3AEE93F8B5AF472DA410127B /* Sheets.swift in Sources */,
+				72FBB4B5FF504B569D5C87E6 /* ShareSheet.swift in Sources */,
+				937C34677D5A40DF81405CD3 /* AuthManager.swift in Sources */,
+				35A4D619F6334EF58F86098E /* FirestoreService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		53BF37ACC3834399A415513E = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("DEBUG=1", "$(inherited)");
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7AF3EE13033E45AAA29CB211 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C79351B58F9548ACBC5AD8D5 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASPECTED_RATIO = "16:9";
+				ASPECTED_RATIO_LANDSCAPE = "9:16";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.forma.app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait";
+			};
+			name = Debug;
+		};
+		D1D802FCC9004AC895F98065 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.forma.app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25E672C0B4DE4DBBA836B0F8 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53BF37ACC3834399A415513E /* Debug */,
+				7AF3EE13033E45AAA29CB211 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D4EB2CFC59240E797278DE5 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C79351B58F9548ACBC5AD8D5 /* Debug */,
+				D1D802FCC9004AC895F98065 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = DDBCA549E5314D41BE8B61E3 /* Project object */;
+}

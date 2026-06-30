@@ -1,0 +1,17 @@
+workflows:
+  ios-signing-less:
+    name: iOS Unsigned Build
+    max_build_duration: 30
+    instance_type: mac_mini_m2
+    environment:
+      xcode: latest
+    triggering:
+      events:
+        - push
+    scripts:
+      - name: Build Unsigned iOS App
+        script: |
+          echo "检测到标准 Xcode 工程，开始免签编译..."
+          xcodebuild -project "Forma.xcodeproj" -scheme "Forma" -configuration Release CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO OBJROOT=$PWD/build SYMROOT=$PWD/build
+    artifacts:
+      - build/Release-iphoneos/*.ipa

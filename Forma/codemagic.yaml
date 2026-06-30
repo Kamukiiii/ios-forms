@@ -11,6 +11,7 @@ workflows:
     scripts:
       - name: Build Unsigned iOS App
         script: |
-          xcodebuild -workspace *.xcworkspace -scheme "FormaApp" -configuration Release CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO OBJROOT=$PWD/build SYMROOT=$PWD/build
+          echo "检测到标准 Xcode 工程，开始免签编译..."
+          xcodebuild -project "Forma.xcodeproj" -scheme "Forma" -configuration Release CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO OBJROOT=$PWD/build SYMROOT=$PWD/build
     artifacts:
       - build/Release-iphoneos/*.ipa
